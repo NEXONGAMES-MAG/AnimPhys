@@ -1,0 +1,33 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "AnimPhys",
+	"Description": "Framework for animation and dynamic bones",
+	"Category": "Animation",
+	"CreatedBy": "NEXON Games Co.",
+	"CreatedByURL": "https://www.nexongames.co.kr",
+	"SupportURL": "https://github.com/NEXONGAMES-MAG/AnimPhys",
+	"EnabledByDefault": false,
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "AnimPhys",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "AnimPhysGraphNode",
+			"Type": "UncookedOnly",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "AnimPhysEd",
+			"Type": "Editor",
+			"LoadingPhase": "PreDefault"
+		}
+	]
+}
